@@ -2,7 +2,7 @@ import os
 
 from tinkoff.invest.sandbox.client import SandboxClient
 
-TOKEN = os.environ["INVEST_TOKEN"]
+TOKEN = os.environ["t.PXRpihIQNpKpAsjfJcqOLx-aNz4bC-zHUNP1tmkqAtj3qLZghqrEAGdgPbcH8qt_H2MIQoSSZ0olxJLrhzJg0w"]
 
 
 def main():

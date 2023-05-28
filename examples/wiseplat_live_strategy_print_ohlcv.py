@@ -15,7 +15,7 @@ from tinkoff.invest import AioRequestError, AsyncClient, CandleInterval, Histori
 from tinkoff.invest.async_services import AsyncServices
 from tinkoff.invest.utils import now
 
-TOKEN = os.environ["INVEST_TOKEN"]
+TOKEN = os.environ["t.PXRpihIQNpKpAsjfJcqOLx-aNz4bC-zHUNP1tmkqAtj3qLZghqrEAGdgPbcH8qt_H2MIQoSSZ0olxJLrhzJg0w"]
 
 logging.basicConfig(format="%(asctime)s %(levelname)s:%(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)

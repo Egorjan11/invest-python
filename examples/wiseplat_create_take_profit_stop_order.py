@@ -13,7 +13,7 @@ from tinkoff.invest import (
 from tinkoff.invest.exceptions import InvestError
 from tinkoff.invest.utils import decimal_to_quotation, quotation_to_decimal
 
-TOKEN = os.environ["INVEST_TOKEN"]
+TOKEN = os.environ["t.PXRpihIQNpKpAsjfJcqOLx-aNz4bC-zHUNP1tmkqAtj3qLZghqrEAGdgPbcH8qt_H2MIQoSSZ0olxJLrhzJg0w"]
 
 logging.basicConfig(format="%(asctime)s %(levelname)s:%(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)

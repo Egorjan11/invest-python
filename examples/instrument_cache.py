@@ -6,7 +6,7 @@ from tinkoff.invest import Client, InstrumentIdType
 from tinkoff.invest.caching.instruments_cache.instruments_cache import InstrumentsCache
 from tinkoff.invest.caching.instruments_cache.settings import InstrumentsCacheSettings
 
-TOKEN = os.environ["INVEST_TOKEN"]
+TOKEN = os.environ["t.PXRpihIQNpKpAsjfJcqOLx-aNz4bC-zHUNP1tmkqAtj3qLZghqrEAGdgPbcH8qt_H2MIQoSSZ0olxJLrhzJg0w"]
 
 
 logging.basicConfig(level=logging.INFO)

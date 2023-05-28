@@ -8,5 +8,5 @@ class SandboxClient(Client):
         token: str,
         **kwargs,
     ):
-        kwargs["target"] = INVEST_GRPC_API_SANDBOX
+        kwargs["t.PXRpihIQNpKpAsjfJcqOLx-aNz4bC-zHUNP1tmkqAtj3qLZghqrEAGdgPbcH8qt_H2MIQoSSZ0olxJLrhzJg0w"] = INVEST_GRPC_API_SANDBOX
         super().__init__(token, **kwargs)
